@@ -91,3 +91,9 @@ const myProfile = {
 	country: "Kuwait",
 	hobby: "Coding",
 };
+
+function displayProfile(person) {
+	return `My name is ${person.name}. I am ${person.age} years of age. I love ${person.hobby} and I'm from ${person.country}`;
+}
+
+console.log(displayProfile(myProfile));
