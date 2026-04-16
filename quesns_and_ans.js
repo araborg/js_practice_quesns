@@ -189,3 +189,9 @@ should return a new array of strings in this format:
 
 Que 10:
 */
+
+function summarizeStudent(studentArr) {}
+
+const arr = [];
+
+summarizeStudent(arr);
