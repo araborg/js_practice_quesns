@@ -41,8 +41,17 @@ it with your own name.
 Que 3:
 */
 function greetUser(name) {
-	return `Welcome to TechCrush, {name}!`;
+	return `Welcome to TechCrush, ${name}!`;
 }
 
 const greeting = greetUser("Babatunde");
 console.log(greeting);
+
+/*
+Given the array below, write code to:
+1. Add 'pineapple' to the end
+2. Remove the first item
+3. Log the updated array and its length
+
+const fruits = ["mango", "orange", "banana"];
+*/
