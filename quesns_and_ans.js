@@ -14,7 +14,7 @@ console.log(name, age, isStudent);
 
 let name2 = "Babatunde";
 let age2 = 30;
-let isStudent2 = true;
+let isStudent2 = false;
 
 console.log(name2, age2, isStudent2);
 
@@ -44,7 +44,7 @@ function greetUser(name) {
 	return `Welcome to TechCrush, ${name}!`;
 }
 
-const greeting = greetUser("Babatunde");
+const greeting = greetUser("Kolawole");
 console.log(greeting);
 
 /*
@@ -57,9 +57,7 @@ Que 4:
 */
 const fruits = ["mango", "orange", "banana"];
 
-const addPineappleToEnd = fruits.push("pineapple");
-
-const removeFirstItem = fruits.shift();
+fruits.push("pineapple").shift();
 
 console.log(fruits, fruits.length);
 
