@@ -77,6 +77,17 @@ const doubleNums = numbers.map((num) => num * 2);
 console.log(doubleNums);
 
 /*
-Create an object called myProfile with at least 4 properties: name, age, country, and hobby. Then write a function displayProfile(person) that logs a sentence describing the person using their properties.
+Create an object called myProfile with at least 4 properties: 
+name, age, country, and hobby. Then write a function 
+displayProfile(person) that logs a sentence describing the 
+person using their properties.
 
+Que 6:
 */
+
+const myProfile = {
+	name: "Babatunde",
+	age: 23,
+	country: "Kuwait",
+	hobby: "Coding",
+};
