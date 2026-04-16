@@ -32,3 +32,11 @@ const multiply = (num1, num2) => {
 
 const result = multiply(6, 7);
 console.log(result);
+
+/*
+Write a function called greetUser that takes a name parameter 
+and returns the string: 'Welcome to TechCrush, [name]!'. Test 
+it with your own name.
+
+Que 3:
+*/
