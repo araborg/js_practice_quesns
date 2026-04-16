@@ -190,8 +190,14 @@ should return a new array of strings in this format:
 Que 10:
 */
 
-function summarizeStudent(studentArr) {}
+const arr = [
+	{ name: "Babatunde", score: 23 },
+	{ name: "Babatunde", score: 85 },
+	{ name: "Babatunde", score: 62 },
+	{ name: "Babatunde", score: 45 },
+	{ name: "Babatunde", score: 30 },
+];
 
-const arr = [];
+function summarizeStudent(studentArr) {}
 
 summarizeStudent(arr);
