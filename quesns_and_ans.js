@@ -165,6 +165,8 @@ table of 5, from 5×1 up to 5×10.
 
 Expected output format:  
 5 x 1 = 5   /   5 x 2 = 10   ...   5 x 10 = 50
+
+Que 9:
 */
 
 function multiplicationTable(num) {
@@ -177,3 +179,13 @@ function multiplicationTable(num) {
 }
 
 multiplicationTable(5);
+
+/*
+BONUS: 
+Write a function called summarizeStudent that accepts an array 
+of student objects (each with name and score). The function 
+should return a new array of strings in this format:
+'Amara scored 88 — Grade: B'
+
+Que 10:
+*/
