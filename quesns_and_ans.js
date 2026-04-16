@@ -40,3 +40,9 @@ it with your own name.
 
 Que 3:
 */
+function greetUser(name) {
+	return `Welcome to TechCrush, {name}!`;
+}
+
+const greeting = greetUser("Babatunde");
+console.log(greeting);
