@@ -97,3 +97,22 @@ function displayProfile(person) {
 }
 
 console.log(displayProfile(myProfile));
+
+/*
+Write a function formatName(firstName, lastName) that trims 
+extra spaces from both inputs and returns the full name in 
+this exact format: 'LASTNAME, Firstname'.
+
+Test: formatName('  esther  ', '  ogbu  ') should return 
+'OGBU, Esther'
+
+Que 7:
+*/
+
+function formatName(firstName, lastName) {
+	const fullName = `${firstName}.trim().toUpperCase(), ${lastName}`;
+
+	return fullName;
+}
+
+console.log(formatName("  esther  ", "  ogbu  "));
