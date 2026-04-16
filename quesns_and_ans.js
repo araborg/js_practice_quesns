@@ -62,3 +62,11 @@ const addPineappleToEnd = fruits.push("pineapple");
 const removeFirstItem = fruits.shift();
 
 console.log(fruits, fruits.length);
+
+/*
+Use the map() method on the numbers array below to create 
+a NEW array where every number is doubled. Log the new array. 
+Do NOT change the original.
+
+Que 5:
+*/
