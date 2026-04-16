@@ -191,11 +191,11 @@ Que 10:
 */
 
 const arr = [
-	{ name: "Babatunde", score: 23 },
-	{ name: "Babatunde", score: 85 },
-	{ name: "Babatunde", score: 62 },
-	{ name: "Babatunde", score: 45 },
-	{ name: "Babatunde", score: 55 },
+	{ name: "Babajide", score: 23 },
+	{ name: "Sarah", score: 85 },
+	{ name: "Muyiwa", score: 62 },
+	{ name: "Oladipupo", score: 45 },
+	{ name: "Oluwatoyin", score: 55 },
 ];
 
 function summarizeStudent(studentArr) {
