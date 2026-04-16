@@ -110,14 +110,14 @@ Que 7:
 */
 
 function formatName(firstName, lastName) {
-	const editFirstName = firstName.trim().toUpperCase();
+	const editLastName = lastName.trim().toUpperCase();
 
-	const editLastName = lastName.trim();
+	const editFirstName = firstName.trim();
 
 	const newLastName =
 		editLastName.charAt(0).toUpperCase() + editLastName.slice(1);
 
-	return ` ${newLastName}, ${editFirstName}`;
+	return `${newLastName}, ${editFirstName}`;
 }
 
 console.log(formatName("  esther  ", "  ogbu  "));
