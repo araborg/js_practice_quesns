@@ -171,10 +171,9 @@ function multiplicationTable(num) {
 	let result;
 
 	for (let i = 1; i <= 10; i++) {
-		result = `${num} x ${i} = ${num * i``}`;
+		result = `${num} x ${i} = ${num * i}`;
+		console.log(result);
 	}
-
-	console.log(result);
 }
 
-console.log(multiplicationTable(5));
+multiplicationTable(5);
