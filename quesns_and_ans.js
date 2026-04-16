@@ -53,5 +53,12 @@ Given the array below, write code to:
 2. Remove the first item
 3. Log the updated array and its length
 
-const fruits = ["mango", "orange", "banana"];
+Que 4:
 */
+const fruits = ["mango", "orange", "banana"];
+
+const addPineappleToEnd = fruits.push("pineapple");
+
+const removeFirstItem = fruits.unshift();
+
+console.log(fruits, fruits.length);
