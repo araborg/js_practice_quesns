@@ -57,7 +57,8 @@ Que 4:
 */
 const fruits = ["mango", "orange", "banana"];
 
-fruits.push("pineapple").shift();
+fruits.push("pineapple");
+fruits.shift();
 
 console.log(fruits, fruits.length);
 
@@ -84,14 +85,14 @@ Que 6:
 */
 
 const myProfile = {
-	name: "Babatunde",
+	name: "Olanrewaju",
 	age: 23,
 	country: "Kuwait",
 	hobby: "Coding",
 };
 
 function displayProfile(person) {
-	return `My name is ${person.name}. I am ${person.age} years of age. I love ${person.hobby} and I'm from ${person.country}.`;
+	return `My name is ${person.name}. I am ${person.age} years old. I love ${person.hobby} and I'm from ${person.country}.`;
 }
 
 console.log(displayProfile(myProfile));
@@ -112,10 +113,10 @@ function formatName(firstName, lastName) {
 
 	const editFirstName = firstName.trim();
 
-	const newLastName =
-		editLastName.charAt(0).toUpperCase() + editLastName.slice(1);
+	const newFirstName =
+		editFirstName.charAt(0).toUpperCase() + editFirstName.slice(1);
 
-	return `${newLastName}, ${editFirstName}`;
+	return `${editLastName}, ${newFirstName}`;
 }
 
 console.log(formatName("  esther  ", "  ogbu  "));
