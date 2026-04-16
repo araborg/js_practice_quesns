@@ -15,3 +15,5 @@ console.log(name, age, isStudent);
 let name2 = "Babatunde";
 let age2 = 30;
 let isStudent2 = true;
+
+console.log(name2, age2, isStudent2);
