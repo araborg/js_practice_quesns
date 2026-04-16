@@ -110,7 +110,10 @@ Que 7:
 */
 
 function formatName(firstName, lastName) {
-	const fullName = `${firstName}.trim().toUpperCase(), ${lastName}`;
+	const fullName =
+		`${firstName}`.trim().toUpperCase() +
+		`${lastName}`.trim().charAt(0).toUpperCase() +
+		`${lastName}`.slice(1);
 
 	return fullName;
 }
