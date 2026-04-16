@@ -61,6 +61,6 @@ const fruits = ["mango", "orange", "banana"];
 fruits.push("pineapple");
 
 // const removeFirstItem =
-fruits.unshift();
+fruits.shift();
 
 console.log(fruits, fruits.length);
