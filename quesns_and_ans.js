@@ -121,3 +121,17 @@ function formatName(firstName, lastName) {
 }
 
 console.log(formatName("  esther  ", "  ogbu  "));
+
+/*
+Write a function gradeScore(score) that returns a letter grade:
+• 70 to 100  →  'A'
+• 60 to 69    →  'B'
+• 50 to 59    →  'C'
+• 40 to 49    →  'D'
+• Below 40   →  'F'
+
+Test it with: 85, 62, 45, and 30.
+
+Que 8:
+
+*/
