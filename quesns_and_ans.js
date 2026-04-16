@@ -198,6 +198,10 @@ const arr = [
 	{ name: "Babatunde", score: 30 },
 ];
 
-function summarizeStudent(studentArr) {}
+function summarizeStudent(studentArr) {
+	studentArr.map(({ name, score }) =>
+		console.log(`${name} scored ${score} - Grade: ${gradeScore(score)}`),
+	);
+}
 
 summarizeStudent(arr);
