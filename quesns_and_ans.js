@@ -195,7 +195,7 @@ const arr = [
 	{ name: "Babatunde", score: 85 },
 	{ name: "Babatunde", score: 62 },
 	{ name: "Babatunde", score: 45 },
-	{ name: "Babatunde", score: 30 },
+	{ name: "Babatunde", score: 55 },
 ];
 
 function summarizeStudent(studentArr) {
