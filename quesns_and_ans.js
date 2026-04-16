@@ -57,8 +57,10 @@ Que 4:
 */
 const fruits = ["mango", "orange", "banana"];
 
-const addPineappleToEnd = fruits.push("pineapple");
+// const addPineappleToEnd =
+fruits.push("pineapple");
 
-const removeFirstItem = fruits.unshift();
+// const removeFirstItem =
+fruits.unshift();
 
 console.log(fruits, fruits.length);
