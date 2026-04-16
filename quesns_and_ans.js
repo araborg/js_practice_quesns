@@ -114,9 +114,10 @@ function formatName(firstName, lastName) {
 
 	const editLastName = lastName.trim();
 
-	editLastName.charAt(0).toUpperCase() + editLastName.slice(1);
+	const newLastName =
+		editLastName.charAt(0).toUpperCase() + editLastName.slice(1);
 
-	return { editFirstName, editLastName };
+	return (editFirstName, newLastName);
 }
 
 console.log(formatName("  esther  ", "  ogbu  "));
