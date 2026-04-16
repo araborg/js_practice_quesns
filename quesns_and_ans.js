@@ -112,8 +112,9 @@ Que 7:
 function formatName(firstName, lastName) {
 	const editFirstName = firstName.trim().toUpperCase();
 
-	const editLastName =
-		lastName.trim().charAt(0).toUpperCase() + lastName.slice(1);
+	const editLastName = lastName.trim();
+
+	editLastName.charAt(0).toUpperCase() + editLastName.slice(1);
 
 	return { editFirstName, editLastName };
 }
