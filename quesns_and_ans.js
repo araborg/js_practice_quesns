@@ -17,3 +17,18 @@ let age2 = 30;
 let isStudent2 = true;
 
 console.log(name2, age2, isStudent2);
+
+/*
+Write an arrow function called multiply that takes two numbers 
+and returns their product. Then call it with 6 and 7 and log 
+the result.
+
+Que 2:
+*/
+
+const multiply = (num1, num2) => {
+	return num1 * num2;
+};
+
+const result = multiply(6, 7);
+console.log(result);
