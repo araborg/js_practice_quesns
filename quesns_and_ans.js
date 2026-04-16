@@ -167,10 +167,14 @@ Expected output format:
 5 x 1 = 5   /   5 x 2 = 10   ...   5 x 10 = 50
 */
 
-const multiplicationTable(num) {
-    for(let i=1;i<=10;i++){
-        console.log(i)
-    }
+function multiplicationTable(num) {
+	let result;
+
+	for (let i = 1; i <= 10; i++) {
+		result = `${num} x ${i} = ${num * i``}`;
+	}
+
+	console.log(result);
 }
 
-console(multiplicationTable(5))
+console.log(multiplicationTable(5));
