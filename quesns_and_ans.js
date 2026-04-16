@@ -160,7 +160,17 @@ console.log(gradeScore(45));
 console.log(gradeScore(30));
 
 /*
-Write a program using a for loop that prints the multiplication table of 5, from 5×1 up to 5×10.
+Write a program using a for loop that prints the multiplication 
+table of 5, from 5×1 up to 5×10.
 
-Expected output format:  5 x 1 = 5   /   5 x 2 = 10   ...   5 x 10 = 50
+Expected output format:  
+5 x 1 = 5   /   5 x 2 = 10   ...   5 x 10 = 50
 */
+
+const multiplicationTable(num) {
+    for(let i=1;i<=10;i++){
+        console.log(i)
+    }
+}
+
+console(multiplicationTable(5))
