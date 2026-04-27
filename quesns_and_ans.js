@@ -10,13 +10,17 @@ const name = "Babatunde";
 const age = 30;
 const isStudent = true;
 
-console.log(name, age, isStudent);
+console.log(name);
+console.log(age);
+console.log(isStudent);
 
 let name2 = "Babatunde";
 let age2 = 30;
 let isStudent2 = false;
 
-console.log(name2, age2, isStudent2);
+console.log(name2);
+console.log(age2);
+console.log(isStudent2);
 
 /*
 Write an arrow function called multiply that takes two numbers 
